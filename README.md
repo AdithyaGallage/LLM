@@ -1,74 +1,40 @@
-# LLM & AI Agents Lab
 
-This repository is my personal learning lab to improve practical skills in:
+# LLM Project
 
-- LLM application development
-- AI agent design and orchestration
-- Prompt engineering and evaluation
-- Retrieval-Augmented Generation (RAG)
-- Tool use, memory, and multi-step workflows
+Welcome to the LLM project! This repository is dedicated to improving skills in the domain of Large Language Models (LLMs) and AI agents through hands-on experiments and practical implementations.
 
-The focus is on **running experiments**, documenting results, and building strong engineering habits.
+## Purpose
+The main goal of this project is to:
+- Explore and experiment with LLMs and AI agent technologies
+- Integrate LLMs into modern web applications for enhanced user experience
+- Develop, test, and document various approaches and architectures
+- Build a foundation for advanced AI-driven solutions
 
----
+## Features
+- Experimentation with LLM APIs and frameworks
+- Prototyping AI agent workflows
+- Integration with web technologies
+- Documentation of learnings and best practices
 
-## Goals
+## Getting Started
+1. Clone this repository.
+2. Review the experiments and code samples.
+3. Follow instructions in each experiment folder for setup and usage.
 
-1. Build a solid foundation in LLM and agent concepts.
-2. Implement small, testable experiments regularly.
-3. Compare approaches (prompts, models, frameworks, tools).
-4. Track outcomes using simple, repeatable evaluation criteria.
-5. Gradually move from prototypes to production-style patterns.
+## Project Structure
+- README.md: Project overview and documentation
+- (Add experiment folders and code files as the project grows)
 
----
+## Learning Objectives
+- Deepen understanding of LLMs and their applications
+- Gain practical experience with AI agent design
+- Improve skills in integrating AI with web technologies
 
-## Learning Scope
+## Contributing
+Contributions, suggestions, and feedback are welcome! Please open an issue or submit a pull request.
 
-### 1) Core LLM Skills
-- Prompt design (zero-shot, few-shot, role prompting, structured prompting)
-- Output control (JSON mode, schemas, constrained generation)
-- Token usage and context window strategies
-- Hallucination mitigation techniques
-
-### 2) Agent Skills
-- Planning vs reactive agents
-- Tool calling and function execution
-- State management and memory (short-term + long-term)
-- Multi-agent coordination patterns
-- Guardrails and failure recovery
-
-### 3) RAG Skills
-- Chunking strategies
-- Embeddings and vector search basics
-- Retrieval quality and reranking
-- Grounded answering and citation patterns
-
-### 4) Evaluation Skills
-- Define task-specific success metrics
-- Build small benchmark sets
-- Regression testing for prompt/agent changes
-- Cost-latency-quality tradeoff analysis
+## License
+This project is for educational and experimental purposes.
 
 ---
-
-## Initial Roadmap
-
-### Phase 1: Foundations
-- Build prompt baselines for 2–3 tasks
-- Add structured output validation
-- Start documenting failures and fixes
-
-### Phase 2: Tool-Augmented Agents
-- Create a single-agent tool-calling loop
-- Add retries and tool error handling
-- Compare planner-style vs direct execution
-
-### Phase 3: RAG + Evaluation
-- Build first RAG pipeline
-- Add small golden evaluation set
-- Track metrics over multiple iterations
-
-### Phase 4: Production Thinking
-- Add observability (inputs, outputs, latency)
-- Add safety checks and fallbacks
-- Refactor into reusable modules
+Created to improve skills in LLM and AI agents domain while doing experiments.
